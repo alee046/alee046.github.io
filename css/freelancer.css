@@ -10,6 +10,7 @@ body {
 
 p {
     font-size: 20px;
+     font-family: 'PT Sans Caption', sans-serif;
 }
 
 p.small {
@@ -217,7 +218,85 @@ img{
     height:300px;
 
 }
+.special{
+  height: 100%;
+  display: inline-block; !important
+  visibility: hidden;
+  /*color: rgba(0,0,0,0);*/
+  text-align: center;
+}
 
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@-webkit-keyframes typing {
+    from { width: 0; }
+}
+@-webkit-keyframes blink-caret {
+    50% { border-color: transparent; }
+}
+
+body {
+    font-family: 'Inconsolata', courier;
+    margin: 0;
+    padding: 0;
+    background: #111;
+}
+
+h1 {
+    margin: 10px 100px;
+    overflow: hidden;
+}
+
+.static {
+    float: left;
+    margin: 1ch 0;
+    padding: 0;
+}
+
+.yellow {
+    color: #FFC107;
+}
+
+.writing-code {
+    float: left;
+    border-right: .1em solid #FFC107;
+    width: 15ch;
+    margin: 1ch;
+    padding: 0 1ch;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 1s steps(15, end), blink-caret .5s step-end infinite alternate;
+}
+
+.writing-technology {
+    float: left;
+    border-right: .1em solid #FFC107;
+    width: 10ch;
+    margin: 1ch;
+    padding: 0 1ch;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(10, end) 1s, blink-caret .5s step-end infinite alternate;
+}
+.typing{
+    text-align:center;
+}
+h3{
+    margin-left:250px;
+}
+
+.writing-something {
+    float: left;
+    border-right: .1em solid #FFC107;
+    width: 11ch;
+    margin: 1ch;
+    padding: 0 1ch;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 1s steps(11, end) 3s, blink-caret .5s step-end infinite alternate;
+}
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
