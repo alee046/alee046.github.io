@@ -338,7 +338,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: #1F718C;
+    background: #2c3e50;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
