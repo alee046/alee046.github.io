@@ -218,6 +218,9 @@ img{
     height:256px;
 
 }
+img.img-responsive.animated.fadeInUp {
+    margin-bottom: -180px;
+}
 .special{
   height: 100%;
   display: inline-block; !important
@@ -281,9 +284,6 @@ h1 {
 }
 .typing{
     text-align:center;
-}
-h3{
-    margin-left:250px;
 }
 
 .writing-something {
