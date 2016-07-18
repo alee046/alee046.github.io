@@ -316,9 +316,7 @@ h1 {
     margin-left: -350px;
 }
 }
-div#bs-example-navbar-collapse-1 {
-    margin-right:-320px;
-}
+
 
 @media(min-width:768px) {
     .navbar-fixed-top {
@@ -364,9 +362,7 @@ div#bs-example-navbar-collapse-1 {
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
-.navbar-brand {
-    margin-left: -340px;
-}
+
 .navbar-default,
 .navbar-inverse {
     border: 0;
