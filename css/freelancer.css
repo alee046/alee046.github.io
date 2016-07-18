@@ -313,7 +313,7 @@ h1 {
 }
 @media (min-width: 768px){
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-left: -350px;
+
 }
 }
 
