@@ -116,7 +116,9 @@ header .container {
 background: #2c3e50;
 
 }
-
+.portfolio{
+    background-color:#1F718C;
+}
 
 .skillbar {
     position:relative;
